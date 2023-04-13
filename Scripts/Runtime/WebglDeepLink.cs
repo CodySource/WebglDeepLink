@@ -44,7 +44,11 @@ namespace CodySource
         /// <summary>
         /// Get the deep link
         /// </summary>
-        public static void GetDeepLinkToPage() => GetDeepLink();
+        public static void GetDeepLinkToPage()
+        {
+            try { GetDeepLink(); }
+            catch { }
+        }
 
         [DllImport("__Internal")]
         private static extern void GetDeepLink();
