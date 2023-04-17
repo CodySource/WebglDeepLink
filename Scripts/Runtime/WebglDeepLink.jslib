@@ -6,7 +6,7 @@ mergeInto(LibraryManager.library, {
   },
   CopyText: function (str) {
     navigator.clipboard.writeText(UTF8ToString(str));
-    alert('Coppied text!');
+    alert('Copied text!');
   },
 
 });
