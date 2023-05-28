@@ -1,6 +1,6 @@
 {
   "name": "com.codysource.webgldeeplink",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "displayName": "WebGL Deep Link",
   "description": "This package allows for simple 'Deep Linking' through the use of GET data in the URL of the web address.",
   "unity": "2020.3",
